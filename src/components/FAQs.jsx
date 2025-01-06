@@ -10,12 +10,12 @@ const FAQs = () => {
     };
 
     return (
-        <div className="bg-z-black lg:pt-[98px] md:pt-16 pt-10">
+        <div className="bg-z-black lg:pt-[98px] md:pt-16 pt-[60px]">
             <div className="container max-w-[1022px] mx-auto">
-                <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold pb-10">
+                <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold lg:pb-10 pb-5">
                     FAQs
                 </h2>
-                <div className="pt-[60px]">
+                <div className="lg:pt-[60px]">
                     {ACCORDION_ITEMS_LIST.map((item, index) => (
                         <div
                             key={index}
@@ -49,13 +49,13 @@ const FAQs = () => {
                             >
                                 <div>
                                     {item.description && (
-                                        <p className="text-white font-normal text-base leading-7 sm:p-6 p-3 max-w-[950px]">
+                                        <p className="text-white font-normal text-base leading-7 sm:p-6 pt-0 sm:pt-0 p-3 max-w-[950px]">
                                             {item.description}
                                         </p>
                                     )}
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     ))}
                 </div>
             </div>

@@ -51,16 +51,16 @@ const TestimonialsSlider = () => {
                                 <h3 className="text-2xl font-medium mb-4">
                                     {testimonial.title}
                                 </h3>
-                                <p className="text-sm font-normal lg:mb-12 mb-6 opacity-80">{testimonial.description}</p>
+                                <p className="text-base font-normal lg:mb-12 mb-6 opacity-80">{testimonial.description}</p>
                                 <div className="flex items-center gap-4">
                                     <img
                                         src={testimonial.image}
                                         alt={testimonial.name}
-                                        className="w-12 h-12 rounded-full"
+                                        className="size-[60px] rounded-full"
                                     />
                                     <div>
-                                        <p className="font-medium">{testimonial.name}</p>
-                                        <p className="text-sm font-normal">{testimonial.role}</p>
+                                        <p className="font-medium text-xl">{testimonial.name}</p>
+                                        <p className="text-base font-normal">{testimonial.role}</p>
                                     </div>
                                 </div>
                             </div>
