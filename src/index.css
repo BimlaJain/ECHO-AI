@@ -5,11 +5,14 @@
 body{
 font-family: "Outfit", serif;
 }
+.bg-hero{
+    background-image: url(../public/assets/images/png/hero-bg.png);
+}
 
 .swiper-pagination-bullet{
     background-color: white !important;
 }
-@media(min-width:1024px) {
+@media(min-width:768px) {
     .border-gradient {
         position: relative;
     }

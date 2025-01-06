@@ -22,7 +22,8 @@ module.exports = {
         "offwhite": '#F5F9FC',
         "naturalblack": '#222222',
         "lightgray": '#D1E0E9',
-        "off-black": '#02010C',
+        "off-black": "#01000B",
+
       },
       backgroundImage: {
         "custom-gradient": "linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%)",

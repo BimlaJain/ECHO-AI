@@ -1,3 +1,11 @@
+export const NAV_DATA_LINK = [
+    { data: 'About us', href: '#about' },
+    { data: 'Solutions', href: '#solution' },
+    { data: 'Benefits', href: '#benefits' },
+    { data: 'Testimonials', href: '#testimonials' },
+    { data: 'FAQs', href: '#faqs' },
+
+];
 export const COUNTER_DATA = [
     {
         id: 1,
