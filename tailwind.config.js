@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderImage: {
+        gradient: 'linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%)',
+      },
       container: {
         center: true,
         padding: "20px",
@@ -19,12 +22,19 @@ module.exports = {
         "offwhite": '#F5F9FC',
         "naturalblack": '#222222',
         "lightgray": '#D1E0E9',
-        "gray": '#737376',
+        "off-black": '#02010C',
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(80.25deg, #0071BB 0.38%, #39A3E7 98.6%)',
-      },
+        "custom-gradient": "linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%)",
+      }
     },
   },
-  plugins: [],
+plugins: [function ({ addUtilities }) {
+  addUtilities({
+    '.border-image-gradient': {
+      'border-image-source': 'linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%)',
+      'border-image-slice': '1',
+    },
+  });
+},],
 }
