@@ -12,6 +12,33 @@ font-family: "Outfit", serif;
 .swiper-pagination-bullet{
     background-color: white !important;
 }
+
+.active-gradient-border {
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 12px;
+}
+
+
+.active-gradient-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  padding: 2px; 
+  background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+
 @media(min-width:768px) {
     .border-gradient {
         position: relative;

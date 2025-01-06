@@ -7,7 +7,7 @@ import { TESTIMONIAL_SLIDER } from "../utils/helper";
 
 const TestimonialsSlider = () => {
     return (
-        <div className="bg-off-black pb-28">
+        <div className="bg-off-black lg:pb-28">
             <div className="container">
                 <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold pb-10">
                     Testimonials

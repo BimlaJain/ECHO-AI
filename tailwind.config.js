@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       borderImage: {
-        gradient: 'linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%)',
+        gradient: "linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%)",
       },
       container: {
         center: true,
@@ -30,12 +30,5 @@ module.exports = {
       }
     },
   },
-plugins: [function ({ addUtilities }) {
-  addUtilities({
-    '.border-image-gradient': {
-      'border-image-source': 'linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%)',
-      'border-image-slice': '1',
-    },
-  });
-},],
+plugins: [],
 }
