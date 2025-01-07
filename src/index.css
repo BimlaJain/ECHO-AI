@@ -46,10 +46,6 @@ font-family: "Outfit", serif;
   pointer-events: none;
 }
 
- .move-x {
-      animation: moveX 1s infinite alternate;
-    }
-    
 @keyframes moveX {
       0% {
         transform: translateX(-55);
