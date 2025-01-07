@@ -54,14 +54,6 @@ export const TESTIMONIAL_SLIDER = [
             role: "CEO (MREM)",
             image: "./assets/images/png/mike-man.png",
     },
-    {
-        title: "Game Changer!",
-        description:
-            "“ECHO AI has really revolutionized our operations. My team never has to chase down resources anymore—it’s all instantly accessible, streamlining our workflow and freeing up time.”",
-        name: "Rachel Lettice,",
-        role: "Creative Director",
-        image: "./assets/images/png/girl.png",
-    },
 ];
 export const ACCORDION_ITEMS_LIST = [
     {
