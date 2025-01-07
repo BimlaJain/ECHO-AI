@@ -44,7 +44,16 @@ font-family: "Outfit", serif;
   mask-composite: exclude;
   pointer-events: none;
 }
-
+@keyframes moveX {
+      0% {
+        transform: translateX(-55);
+      }
+      100% {
+        transform: translateX(25px);
+      }
+    }    .move-x {
+      animation: moveX 1s infinite alternate;
+    }
 
 @media(min-width:768px) {
     .border-gradient {

@@ -18,6 +18,9 @@ module.exports = {
           xl: "1140px",
         },
       },
+      animation: {
+        moveX: 'moveX 1s ease-in-out infinite',
+      },
       colors: {
         "offwhite": '#F5F9FC',
         "naturalblack": '#222222',
