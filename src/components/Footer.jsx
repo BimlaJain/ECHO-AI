@@ -39,7 +39,7 @@ const Footer = () => {
                             info@echoai.ai
                         </a>
                         <p className="text-white leading-5 max-sm:leading-4 max-sm:text-sm pt-8 max-sm:text-center">
-                            Send Us An E-mail
+                            Follow Us On
                         </p>
                         <div className="flex items-center gap-3 pt-[18px]">
                             <a
