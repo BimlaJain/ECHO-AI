@@ -25,7 +25,7 @@ module.exports = {
         "offwhite": '#F5F9FC',
         "naturalblack": '#222222',
         "lightgray": '#D1E0E9',
-        "off-black": "#01000B",
+        "offblack": "#01000B",
 
       },
       backgroundImage: {

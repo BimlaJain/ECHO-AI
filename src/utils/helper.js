@@ -1,9 +1,9 @@
 export const NAV_DATA_LINK = [
-    { data: 'About us', href: '#about' },
-    { data: 'Solutions', href: '#solution' },
-    { data: 'Benefits', href: '#benefits' },
-    { data: 'Testimonials', href: '#testimonials' },
-    { data: 'FAQs', href: '#faqs' },
+    { title: 'About us', id: '#about' },
+    { title: 'Solutions', id: '#solution' },
+    { title: 'Benefits', id: '#benefits' },
+    { title: 'Testimonials', id: '#testimonials' },
+    { title: 'FAQs', id: '#faqs' },
 
 ];
 export const COUNTER_DATA = [
@@ -80,22 +80,22 @@ export const ACCORDION_ITEMS_LIST = [
 export const FOOTER_LIST = [
     {
         title: "About us",
-        link: "#about",
+        id: "#about",
     },
     {
         title: "Solutions",
-        link: "#solution",
+        id: "#solution",
     },
     {
         title: "Benefits",
-        link: "#benefits",
+        id: "#benefits",
     },
     {
         title: "Testimonials",
-        link: "#testimonials",
+        id: "#testimonials",
     },
     {
         title: "FAQs",
-        link: "#faq",
+        id: "#faq",
     },
 ]

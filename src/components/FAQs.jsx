@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { ACCORDION_ITEMS_LIST } from "../utils/helper";
 
-const FAQs = () => {
+const Faqs = () => {
     const [openAccordion, setOpenAccordion] = useState(null);
     const contentRefs = useRef([]);
 
@@ -10,9 +10,9 @@ const FAQs = () => {
     };
 
     return (
-        <div className="bg-z-black lg:pt-[98px] md:pt-16 pt-[60px]">
+        <div className=" lg:pt-[98px] md:pt-16 pt-[60px]">
             <div className="container max-w-[1022px] mx-auto">
-                <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold lg:pb-10 pb-5">
+                <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold xl:pb-10">
                     FAQs
                 </h2>
                 <div className="lg:pt-[60px]">
@@ -20,13 +20,13 @@ const FAQs = () => {
                         <div
                             key={index}
                             className={`relative mb-6 rounded-xl ${openAccordion === index
-                                    ? "active-gradient-border"
-                                    : "border border-white border-opacity-10"
+                                ? "active-gradient-border"
+                                : "border border-white border-opacity-10"
                                 }`}
                         >
                             <button
                                 onClick={() => toggleAccordion(index)}
-                                className={`font-medium text-xl leading-7 text-white flex justify-between items-center text-start p-6 max-sm:pe-3 max-w-[1022px] w-full ${openAccordion === index ? "pb-4" : "pb-6"
+                                className={`font-medium sm:text-xl text-base leading-7 text-white flex justify-between items-center text-start p-6 max-sm:pe-3 max-w-[1022px] w-full ${openAccordion === index ? "pb-4" : "pb-6"
                                     }`}
                             >
                                 {item.heading}
@@ -49,13 +49,13 @@ const FAQs = () => {
                             >
                                 <div>
                                     {item.description && (
-                                        <p className="text-white font-normal text-base leading-7 sm:p-6 pt-0 sm:pt-0 p-3 max-w-[950px]">
+                                        <p className="text-white font-normal sm:text-base text-sm` leading-7 sm:p-6 pt-0 sm:pt-0 p-3 max-w-[950px]">
                                             {item.description}
                                         </p>
                                     )}
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     ))}
                 </div>
             </div>
@@ -63,4 +63,4 @@ const FAQs = () => {
     );
 };
 
-export default FAQs;
+export default Faqs;

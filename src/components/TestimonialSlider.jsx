@@ -7,7 +7,7 @@ import { TESTIMONIAL_SLIDER } from "../utils/helper";
 
 const TestimonialsSlider = () => {
     return (
-        <div className="bg-off-black lg:pb-28">
+        <div className="bg-offblack lg:pb-28">
             <div className="container">
                 <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold pb-10">
                     Testimonials
@@ -47,7 +47,7 @@ const TestimonialsSlider = () => {
                 >
                     {TESTIMONIAL_SLIDER.map((testimonial, index) => (
                         <SwiperSlide key={index}>
-                            <div className="bg-custom-gradient p-6 pb-14 rounded-lg text-white shadow-lg">
+                            <div className="bg-custom-gradient p-6 pb-14 rounded-xl text-white shadow-lg">
                                 <h3 className="text-2xl font-medium mb-2">
                                     {testimonial.title}
                                 </h3>

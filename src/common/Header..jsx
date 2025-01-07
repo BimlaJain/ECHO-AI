@@ -1,5 +1,5 @@
 import React from 'react';
-import { NAV_DATA_LINK, DATA_LINK } from '../utils/helper';
+import { NAV_DATA_LINK } from '../utils/helper';
 import { useEffect, useState } from 'react';
 import CustomButton from '../common/CommonButton';
 
@@ -30,11 +30,11 @@ const Header = () => {
     }, [isMenuOpen])
 
     return (
-        <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 bg-off-black">
+        <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 bg-offblack">
             <div className="container">
                 <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
                     <a href="/">
-                        <img className='max-w-[192px]' src="./assets/images/png/logo.png" alt="nav-logo" />
+                        <img className='max-w-[192px] max-xl:pt-3' src="./assets/images/png/logo.png" alt="nav-logo" />
                     </a>
                     <div className='lg:block hidden'>
                         <div className="flex gap-8 items-center">
@@ -42,9 +42,9 @@ const Header = () => {
                                 <a onClick={toggleMenu}
                                     key={index}
                                     className="font-normal hover:text-blue-500 transition-all duration-500 text-base leading-custom-base text-white"
-                                    href={obj.href}
+                                    href={obj.id}
                                 >
-                                    {obj.data}
+                                    {obj.title}
                                 </a>
                             ))}
                         </div>
@@ -73,9 +73,9 @@ const Header = () => {
                                     <a onClick={toggleMenu}
                                         key={index}
                                         className="font-normal hover:text-blue-500 transition-all duration-500 text-base leading-custom-base text-white"
-                                        href={obj.href}
+                                        href={obj.id}
                                     >
-                                        {obj.data}
+                                        {obj.title}
                                     </a>
                                 ))}
                             </div>

@@ -6,10 +6,10 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className="bg-navy-blue pt-[356px] max-xl:pt-[300px] max-lg:pt-[60px]">
+        <div className=" pt-[356px] max-xl:pt-[300px] max-lg:pt-[60px]">
             <div className="max-w-[1172px] px-4 mx-auto">
                 <div className="flex justify-between max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-10">
-                    <a href="#footerlogo">
+                    <a href="#">
                         <img
                             src="./assets/images/png/footer-logo.png"
                             alt="footer-logo"
@@ -22,7 +22,7 @@ const Footer = () => {
                             <a
                                 key={i}
                                 className="max-sm:text-sm max-sm:leading-4 text-white hover:text-white hover:opacity-100 transition-all duration-300 opacity-70 cursor-pointer max-sm:text-center"
-                                href={obj.link}
+                                href={obj.id}
                             >
                                 {obj.title}
                             </a>
