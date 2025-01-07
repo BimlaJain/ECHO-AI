@@ -5,7 +5,7 @@ import CustomButton from '../common/CommonButton'
 const Hero = () => {
     return (
         <div className='bg-hero bg-cover bg-no-repeat bg-center max-xl:h-[840.23px] relative'>
-            <img src="./assets/images/png/side-img.png" alt="side-img" className='absolute left-0 top-[13%]' />
+            <img src="./assets/images/png/side-img.png" alt="side-img" className='absolute left-0 top-[13%] pointer-events-none' />
             <Header />
             <div className='container relative'>
                 <div className='flex lg:flex-row flex-col gap-5 max-lg:pt-12'>

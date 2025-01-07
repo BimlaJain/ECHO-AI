@@ -4,6 +4,7 @@ import TestimonialSlider from './components/TestimonialSlider'
 import Hero from './components/Hero'
 import FAQs from './components/FAQs'
 import Footer from './components/Footer'
+import BackToTop from './common/BackToTop'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <GlobalCounter />
       <TestimonialSlider />
       <FAQs />
-      <Footer/>
+      <Footer />
+      <BackToTop/>
     </div>
   )
 }

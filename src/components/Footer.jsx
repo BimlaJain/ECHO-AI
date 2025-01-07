@@ -21,7 +21,7 @@ const Footer = () => {
                         {FOOTER_LIST.map((obj, i) => (
                             <a
                                 key={i}
-                                className="max-sm:text-sm max-sm:leading-4 text-white hover:text-dark-blue transition-all duration-300 opacity-70 cursor-pointer max-sm:text-center"
+                                className="max-sm:text-sm max-sm:leading-4 text-white hover:text-white hover:opacity-100 transition-all duration-300 opacity-70 cursor-pointer max-sm:text-center"
                                 href={obj.link}
                             >
                                 {obj.title}
