@@ -12,7 +12,7 @@ const Faq = () => {
     return (
         <div className=" lg:pt-[98px] md:pt-16 pt-[60px]">
             <div className="container max-w-[1022px] mx-auto">
-                <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold xl:pb-10">
+                <h2 className="text-center text-white lg:text-5xl text-3xl font-semibold xl:pb-10 pb-5">
                     FAQs
                 </h2>
                 <div className="lg:pt-[60px]">
