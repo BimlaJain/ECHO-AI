@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { ACCORDION_ITEMS_LIST } from "../utils/helper";
 
-const Faqs = () => {
+const Faq = () => {
     const [openAccordion, setOpenAccordion] = useState(null);
     const contentRefs = useRef([]);
 
@@ -63,4 +63,4 @@ const Faqs = () => {
     );
 };
 
-export default Faqs;
+export default Faq;

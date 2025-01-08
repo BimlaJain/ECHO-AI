@@ -4,7 +4,7 @@ import TestimonialSlider from './components/TestimonialSlider'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import BackToTop from './common/BackToTop'
-import Faqs from './components/Faqs'
+import Faq from './components/Faq'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Hero/>
       <GlobalCounter />
       <TestimonialSlider />
-      <Faqs />
+      <Faq />
       <Footer />
       <BackToTop/>
     </>
