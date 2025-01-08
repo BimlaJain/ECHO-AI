@@ -42,7 +42,6 @@ const TestimonialsSlider = () => {
                     className="mySwiper"
                     pagination={{
                         clickable: true, 
-                        dynamicBullets: true,
                     }}
                 >
                     {TESTIMONIAL_SLIDER.map((testimonial, index) => (
