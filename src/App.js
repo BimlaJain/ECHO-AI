@@ -5,10 +5,12 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import BackToTop from './common/BackToTop'
 import Faq from './components/Faq'
+import PreLoader from './common/PreLoader'
 
 const App = () => {
   return (
     <>
+      <PreLoader/>
       <Hero/>
       <GlobalCounter />
       <TestimonialSlider />
